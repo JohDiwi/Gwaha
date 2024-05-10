@@ -1,0 +1,11 @@
+file=open("open.py", "r")
+content=file.read(10)
+print(content)
+file.seek(11)
+content_2=file.read()
+print(content_2)
+print("Content Read:", content)
+# Get the current position of the file cursor
+position=file.tell()
+print("Position: ", position)
+file.close()
