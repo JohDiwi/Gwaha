@@ -3,4 +3,4 @@ sum1 = 0
 for elem in list1:
     if (elem % 3 == 0):
      sum1 = sum1 + elem
-print(sum , end=" ")
+print(sum1 , end=" ")
